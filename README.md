@@ -1,16 +1,64 @@
-# whatschat_direct
+# WhatsChat Direct
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-2.10.0-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+## Overview
+
+WhatsChat Direct is a Flutter application that allows users to open WhatsApp chats without saving the contact number. It also provides the functionality to save numbers for quick access, enhancing the user's WhatsApp messaging experience.
+
+![Screenshot 1](screenshots/screenshot_1.png) &nbsp; ![Screenshot 2](screenshots/screenshot_2.png)
+
+## Features
+
+- **Open WhatsApp Chat**: Quickly initiate chats without saving numbers.
+- **Save Contacts**: Store frequently contacted numbers for easy access.
+- **User-friendly Interface**: Intuitive design for seamless navigation.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Android Studio / Xcode
+- Emulator or physical device
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dracxi/whatschat_direct.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd whatschat_direct
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+## Building the App
+
+### Android
+
+To build the Android APK file, use the following command:
+
+```bash
+   flutter build apk --release
+```
+### IOS
+
+To build the iOS app for release, use the following command:
+
+```bash
+   flutter build ios --release
+```
+
+### Contributing
+
+Contributions are welcome! Fork the repository and submit a pull request or open an issue if you have suggestions or found a bug.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
