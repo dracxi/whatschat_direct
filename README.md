@@ -7,7 +7,10 @@
 
 WhatsChat Direct is a Flutter application that allows users to open WhatsApp chats without saving the contact number. It also provides the functionality to save numbers for quick access, enhancing the user's WhatsApp messaging experience.
 
-![Screenshot 1](screenshots/screenshot_1.png) &nbsp; ![Screenshot 2](screenshots/screenshot_2.png)
+<p>
+  <img src="screenshots/screenshot_1.png" width="350" alt="Screenshot 1">
+  <img src="screenshots/screenshot_2.png" width="350" alt="Screenshot 2">
+</p>
 
 ## Features
 
