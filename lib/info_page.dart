@@ -39,7 +39,7 @@ class Info extends StatelessWidget {
           ),
           TextButton(
             onPressed: () {
-              _launch('https://github.com/dracxi/whatschat-direct');
+              _launch('https://github.com/dracxi/whatschat_direct');
             },
             child: const Row(
               mainAxisAlignment: MainAxisAlignment.center,
